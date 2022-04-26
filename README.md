@@ -5,18 +5,18 @@ Eine Mod, mit dem Ziel kleine Erdblöcke einzuführen, um das bauen von Grabensy
 
 #V1.0
 
--[ ] Trench Straight
-    -[ ] Shape Blocked out
-    -[ ] Automatic Top Texture, Desert
-    -[ ] Automatic Top Texture, European
-    -[ ] Snow Version
--[ ] Trench Curved
-    -[ ] Shape Blocked out
-    -[ ] Automatic Top Texture, Desert
-    -[ ] Automatic Top Texture, European
-    -[ ] Snow Version
--[ ] Trench Curved Inverse 
-    -[ ] Shape Blocked out
-    -[ ] Automatic Top Texture, Desert
-    -[ ] Automatic Top Texture, European
-    -[ ] Snow Version
+- [ ] Trench Straight
+    - [ ] Shape Blocked out
+    - [ ] Automatic Top Texture, Desert
+    - [ ] Automatic Top Texture, European
+    - [ ] Snow Version
+- [ ] Trench Curved
+    - [ ] Shape Blocked out
+    - [ ] Automatic Top Texture, Desert
+    - [ ] Automatic Top Texture, European
+    - [ ] Snow Version
+- [ ] Trench Curved Inverse 
+    - [ ] Shape Blocked out
+    - [ ] Automatic Top Texture, Desert
+    - [ ] Automatic Top Texture, European
+    - [ ] Snow Version
