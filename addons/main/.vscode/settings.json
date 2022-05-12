@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.sqf": "sqf",
+        "*.cfg": "cpp"
+    }
+}

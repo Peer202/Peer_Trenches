@@ -7,7 +7,7 @@ class CfgPatches
 		url = "Gruppe-W.de";
 		units[] = {};
 		weapons[] = {};
-		requiredAddons[] = {"A3_Structures_F_Exp"};
+		requiredAddons[] = {};
 		requiredVersion = 0.1;
 	};
 };

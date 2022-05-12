@@ -20,3 +20,7 @@ Eine Mod, mit dem Ziel kleine Erdblöcke einzuführen, um das bauen von Grabensy
     - [ ] Automatic Top Texture, Desert
     - [ ] Automatic Top Texture, European
     - [ ] Snow Version
+
+## Credit:
+Danke an Gruppe Adler für das Bereitstellen ihres Scripts zum Dynamischen Setzen der Textur.
+
