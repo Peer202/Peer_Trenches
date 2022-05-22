@@ -1,6 +1,6 @@
 #define MAINPREFIX x
 #define PREFIX Peer_Trenches
-
+#define DEBUG_MODE_FULL
 #include "script_version.hpp"
 
 #define VERSION MAJOR.MINOR.PATCHLVL-BUILD

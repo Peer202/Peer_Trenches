@@ -1,7 +1,7 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        author = "Peer";
+        author = "[W]Peer";
         url = "Gruppe-W.de";
         units[] = {};
         weapons[] = {};

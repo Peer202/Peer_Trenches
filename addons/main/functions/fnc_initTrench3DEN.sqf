@@ -9,7 +9,7 @@
  * Return Value:
  * None
  *
- * Example:
+ * Example: call Peer_Trenches_main_fnc_initTrench3DEN
  *  
  *
  * Public: No
@@ -18,7 +18,7 @@
 params [
     ["_object", objnull, [objNull]]
 ];
-
+LOG("InitTrench3Den runs")
 private _initTrench = {
     params ["_object"];
     _object addEventHandler ["Dragged3DEN", {

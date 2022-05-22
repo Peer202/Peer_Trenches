@@ -18,7 +18,7 @@
 params [
     ["_object", objNull, [objNull]]
 ];
-
+LOG("InitTrench runs")
 if (is3DEN) exitWith {
     [_object] call FUNC(initTrench3DEN);
 };
@@ -44,3 +44,5 @@ if (local _object) then {
         _object setObjectTextureGlobal [0, surfaceTexture (getPos _object)];
     }, _object, 0.1] call CBA_fnc_waitAndExecute;
 };
+
+

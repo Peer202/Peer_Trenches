@@ -2,3 +2,4 @@
 *.biprivatekey
 releases/*
 keys/*
+testarma.bat
