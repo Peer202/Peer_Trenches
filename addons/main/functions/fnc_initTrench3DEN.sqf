@@ -18,7 +18,7 @@
 params [
     ["_object", objnull, [objNull]]
 ];
-LOG("InitTrench3Den runs")
+LOG("InitTrench3Den runs");
 private _initTrench = {
     params ["_object"];
     _object addEventHandler ["Dragged3DEN", {
@@ -34,12 +34,14 @@ private _initTrench = {
 if (isNull _object) then {
     [_initTrench] spawn {
         params ["_initTrench"];
-
+        _n = 0;
         {
             if (isNumber (configOf _x >> QGVAR(isPeerTrench))) then {
                 [_x] call _initTrench;
+                _n = _n + 1;
             };
         } forEach (all3DENEntities select 0);
+        LOG(format["%1 trenches were prepared",_n]);
     };
 } else {
     [_object] call _initTrench;

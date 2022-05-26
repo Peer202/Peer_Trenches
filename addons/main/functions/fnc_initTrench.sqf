@@ -10,19 +10,19 @@
  * None
  *
  * Example:
- * [TrenchObj] call grad_trenches_functions_fnc_initTrench
+ * [TrenchObj] call Peer_Trenches_main_fnc_initTrench
  *
  * Public: No
- */
+ */ 
 
 params [
     ["_object", objNull, [objNull]]
 ];
-LOG("InitTrench runs")
+LOG("InitTrench runs");
 if (is3DEN) exitWith {
     [_object] call FUNC(initTrench3DEN);
 };
-
+/*
 if (isServer) then {
    _object setVariable ["ace_trenches_progress", 1, true];
 
@@ -36,7 +36,7 @@ if (GVAR(allowHitDecay)) then {
     [QGVAR(hitEHAdd), [_object, GVAR(hitDecayMultiplier)]] call CBA_fnc_globalEventJIP;
 };
 
-
+*/
 if (local _object) then {
     // Has to be delayed to ensure MP compatibility (vehicle spawned in same frame as texture is applied)
     [{
