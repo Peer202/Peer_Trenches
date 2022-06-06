@@ -1,11 +1,11 @@
 class CfgPatches {
-    class Peer_Trenches_Vehicles {
-        name = "Peer Trenches - Vechicles";
+    class Peer_Trenches_Main {
+        name = "Peer Trenches - Main";
         author = "[W] Peer";
         url = "Gruppe-W.de";
-        units[] = {"Peer_Land_Trench_Curved","Peer_Land_Trench_Curved_Inverse","Peer_Land_Trench_Straight"};
+        units[] = {};
         weapons[] = {};
-        requiredAddons[] = {"Peer_Trenches_Main", "A3_Structures_F_Exp"};
+        requiredAddons[] = {};
         requiredVersion = 0.1;
     };
 };
