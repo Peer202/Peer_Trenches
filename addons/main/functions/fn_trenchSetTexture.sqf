@@ -1,5 +1,5 @@
 /*
- * Author: Peer
+ * Author: Peer / CapriSol
  * Set texture of trench according to the surface below.
  *
  * Arguments:

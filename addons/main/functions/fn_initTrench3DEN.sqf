@@ -1,6 +1,6 @@
 /*
- * Author: Peer
- * Set texture of trench according to the surface below.
+ * Author: Peer / CapriSol
+ * Set texture of all trenches when 3den-Editor launches.
  *
  * Arguments:
  * None

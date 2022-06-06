@@ -16,7 +16,7 @@ class CfgVehicles
 		
 		class EventHandlers: Eventhandlers {
 			class Peer_Trenches {
-				AttributesChanged3DEN = "_this call Peer_Trenches_Main_fnc_trenchSetTexture";
+				Dragged3DEN = "_this call Peer_Trenches_Main_fnc_trenchSetTexture";
 				init = "_this call Peer_Trenches_Main_fnc_trenchSetTexture";
 			};
 		};

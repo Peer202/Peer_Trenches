@@ -1,6 +1,6 @@
 /*
- * Author: Peer
- * Set texture of trench according to the surface below.
+ * Author: Peer / CapriSol
+ * Set texture of all trenches when Missions is started.
  *
  * Arguments:
  * None
@@ -8,7 +8,7 @@
  * Return Value:
  * None
  *
- * Example: call Peer_Trenches_main_fnc_initTrench3DEN
+ * Example: call Peer_Trenches_main_fnc_initTrenchMission
  *  
  *
  * Public: No
