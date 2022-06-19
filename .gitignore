@@ -1,5 +1,6 @@
 *.pbo
 *.biprivatekey
+*.zip
 releases/*
 keys/*
 testarma.bat

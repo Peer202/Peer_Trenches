@@ -10,7 +10,7 @@ class CfgVehicles
 		scopeCurator		= 2;
 		VehicleClass 		= "Peer_Trenches";										
 		displayName			= "Trench Angle";							/// displayed in Editor
-		model				= "x\Peer_Trenches\addons\trenches\Data\Trench_Curved_Inverse\Trench_Curved.p3d";	/// simple path to model
+		model				= "x\Peer_Trenches\addons\trenches\Data\Trench_Curved\Trench_Curved.p3d";	/// simple path to model
 		hiddenSelections[] = {"top","side"};
 		GVAR(isPeerTrench) = 1;
 	};
