@@ -1,8 +1,3 @@
-
-#include "script_component.hpp"
-
-#include "cfgPatches.hpp"
-
+#include "CfgPatches.hpp"
+#include "CfgFunctions.hpp"
 #include "Cfg3DEN.hpp"
-
-#include "CfgEventHandlers.hpp"
