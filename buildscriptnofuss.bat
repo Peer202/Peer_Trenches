@@ -1,1 +1,2 @@
-hemtt build --release
+hemtt build --release --force
+set /p DUMMY=Hit ENTER to continue...

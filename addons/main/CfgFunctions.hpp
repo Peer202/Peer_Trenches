@@ -1,7 +1,7 @@
 class CfgFunctions {
-	class Peer_Trenches_Main {
+	class peer_trenches_main {
 		class functions {
-			file = "peer_trenches_main\functions";
+			file = "x\Peer_Trenches\addons\main\functions";
 			class initTrench3DEN {};
 			class initTrenchMission {};
 			class trenchSetTexture {};
