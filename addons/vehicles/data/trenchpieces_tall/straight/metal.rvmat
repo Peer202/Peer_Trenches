@@ -10,7 +10,7 @@ VertexShaderID="Super";
 
 class Stage1
 {
-    texture="x\Peer_Trenches\addons\vehicles\data\trenchpieces_tall\straight\textures\Log_NOHQ.paa";
+    texture="x\Peer_Trenches\addons\vehicles\data\trenchpieces_tall\straight\textures\coregated_NOHQ.paa";
     uvSource="tex";
     class uvTransform
     {
@@ -47,7 +47,7 @@ class Stage3
 };
 class Stage4
 {
-    texture="x\Peer_Trenches\addons\vehicles\data\trenchpieces_tall\straight\textures\Log_AO.paa";
+    texture="x\Peer_Trenches\addons\vehicles\data\trenchpieces_tall\straight\textures\coregated_AO.paa";
     uvSource="tex";
     class uvTransform
     {
@@ -59,7 +59,7 @@ class Stage4
 };
 class Stage5
 {
-    texture="x\Peer_Trenches\addons\vehicles\data\trenchpieces_tall\straight\textures\Log_SMDI.paa";
+    texture="x\Peer_Trenches\addons\vehicles\data\trenchpieces_tall\straight\textures\coregated_SMDI.paa";
     uvSource="tex";
     class uvTransform
     {

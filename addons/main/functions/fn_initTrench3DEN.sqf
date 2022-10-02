@@ -15,7 +15,7 @@
  */
 
 {
-	if (_x isKindOf "Peer_Land_Trench_Curved") then {
+	if (_x isKindOf "Peer_Trench_Straight_Tall_Metal") then {
 		[_x] call Peer_Trenches_main_fnc_trenchSetTexture;
 	};
 } forEach (all3DENEntities select 0);
