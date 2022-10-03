@@ -9,6 +9,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
+		editorPreview = "x\Peer_Trenches\addons\vehicles\data\trenchpieces_tall\straight\Straight.paa";
 		vehicleClass = "Peer_Trenches";
 		displayName = "Large Trench Straight Metal";
 		model = "x\Peer_Trenches\addons\vehicles\data\trenchpieces_tall\straight\trench_straight.p3d";
@@ -31,6 +32,7 @@ class CfgVehicles
 	};
 	class Peer_Trench_Bent_Tall_Metal: Peer_Trench_Straight_Tall_Metal {
 		displayName = "Large Trench Bent Metal";
+		editorPreview = "x\Peer_Trenches\addons\vehicles\data\trenchpieces_tall\bent\bent.paa";
 		model = "x\Peer_Trenches\addons\vehicles\data\trenchpieces_tall\bent\trench_bent.p3d";
 		hiddenSelections[] = {"top"};
 	};
