@@ -4,6 +4,10 @@
 
 class CfgEditorSubcategories
 {
+	class Peer_Trenches_Snow_Chameleon
+	{
+		displayName = "Trench Pieces Snow (Chameleon)";
+	};
 	class Peer_Trenches_Chameleon
 	{
 		displayName = "Trench Pieces (Chameleon)";

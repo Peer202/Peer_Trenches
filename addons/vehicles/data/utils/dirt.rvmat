@@ -46,7 +46,7 @@ class Stage3
 };
 class Stage4
 {
-    texture="x\Peer_Trenches\addons\vehicles\data\trenchpieces_tall\straight\textures\Dirt_AO.paa";
+    texture="x\Peer_Trenches\addons\vehicles\data\trenches\straight\textures\Dirt_AO.paa";
     uvSource="tex";
     class uvTransform
     {
@@ -58,7 +58,7 @@ class Stage4
 };
 class Stage5
 {
-    texture="x\Peer_Trenches\addons\vehicles\data\trenchpieces_tall\straight\textures\Dirt_SMDI.paa";
+    texture="x\Peer_Trenches\addons\vehicles\data\trenches\straight\textures\Dirt_SMDI.paa";
     uvSource="tex";
     class uvTransform
     {
