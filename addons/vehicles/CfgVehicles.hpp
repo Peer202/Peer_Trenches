@@ -8,8 +8,8 @@ class CfgVehicles
 		scope = 0;
 		scopeCurator = 0;
 		scopeArsenal = 0;
-		editorCategory = "EdCat_Structures";
-		editorSubCategory = "Peer_Trenches_Chameleon";
+		editorCategory = "Trench_Structures";
+		editorSubCategory = "Trenches_Chameleon";
 		
 		
 		/*
@@ -26,7 +26,7 @@ class CfgVehicles
 		};*/
 	};
 	class Peer_Trench_Chameleon:Peer_Trench_mainclass{
-		editorSubCategory = "Peer_Trenches_Chameleon";
+		editorSubCategory = "Trenches_Chameleon";
 		class EventHandlers: Eventhandlers {
 			class Peer_Trenches {
 				Dragged3DEN = "_this call Peer_Trenches_Main_fnc_trenchSetTexture";
@@ -39,7 +39,8 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
-		editorPreview = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\Straight.paa";
+		editorSubCategory = "Trenches_Misc";
+		editorPreview = "x\Peer_Trenches\addons\vehicles\data\utils\preview\floor.paa";
 		vehicleClass = "Peer_Trenches";
 		displayName = "Trench Floor (Chameleon)";
 		model = "x\Peer_Trenches\addons\vehicles\data\utils\Floor.p3d";
@@ -52,7 +53,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
-		editorPreview = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\Straight.paa";
+		editorPreview = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\preview\long.paa";
 		vehicleClass = "Peer_Trenches";
 		displayName = "Trench long (Chameleon)";
 		model = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\trench_straight.p3d";
@@ -60,7 +61,7 @@ class CfgVehicles
 	};
 
 	class Peer_Trench_Straight_Short_Chameleon: Peer_Trench_Straight_Long_Chameleon {
-		editorPreview = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\Straight.paa";
+		editorPreview = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\preview\short.paa";
 		vehicleClass = "Peer_Trenches";
 		displayName = "Trench short (Chameleon)";
 		model = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\trench_straight_slim.p3d";
@@ -69,7 +70,7 @@ class CfgVehicles
 	};
 
 	class Peer_Trench_Bent_Chameleon: Peer_Trench_Straight_Long_Chameleon {
-		editorPreview = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\Straight.paa";
+		editorPreview = "x\Peer_Trenches\addons\vehicles\data\trenches\bent\preview\bent.paa";
 		vehicleClass = "Peer_Trenches";
 		displayName = "Trench bent (Chameleon)";
 		model = "x\Peer_Trenches\addons\vehicles\data\trenches\bent\trench_bent.p3d";
@@ -79,7 +80,7 @@ class CfgVehicles
 
 	//Snow
 	class Peer_Trench_Snow_Chameleon:Peer_Trench_mainclass{
-		editorSubCategory = "Peer_Trenches_Snow_Chameleon";
+		editorSubCategory = "Trenches_Snow_Chameleon";
 		class EventHandlers: Eventhandlers {
 			class Peer_Trenches {
 				Dragged3DEN = "_this call Peer_Trenches_Main_fnc_trenchSetTexture";
@@ -89,15 +90,13 @@ class CfgVehicles
 	};
 
 	class Peer_Trench_Straight_Long_Snow_Chameleon: Peer_Trench_Snow_Chameleon {
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scope = 0;
+		scopeCurator = 0;
+		scopeArsenal = 0;
 		editorPreview = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\Straight.paa";
 		vehicleClass = "Peer_Trenches";
 		displayName = "Trench long Snow (Chameleon)";
 		model = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\trench_straight.p3d";
-		//hiddenSelections[] = {"top","snow"};
-		//hiddenSelectionsTextures[] = {"x\Peer_Trenches\addons\vehicles\data\trenches\straight\textures\Dirt_CO.paa","x\Peer_Trenches\addons\vehicles\data\trenches\straight\textures\snow_CO.paa"};
 		hiddenSelections[] = {"top"};
 	};
 	
@@ -106,8 +105,6 @@ class CfgVehicles
 		vehicleClass = "Peer_Trenches";
 		displayName = "Trench short snow (Chameleon)";
 		model = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\trench_straight_slim.p3d";
-		//hiddenSelections[] = {"top","snow"};
-		//hiddenSelectionsTextures[] = {"x\Peer_Trenches\addons\vehicles\data\trenches\straight\textures\Dirt_CO.paa","x\Peer_Trenches\addons\vehicles\data\trenches\straight\textures\snow_CO.paa"};
 		hiddenSelections[] = {"top"};
 	};
 	class Peer_Trench_Bent_Snow_Chameleon: Peer_Trench_Straight_Long_Snow_Chameleon {
@@ -115,8 +112,6 @@ class CfgVehicles
 		vehicleClass = "Peer_Trenches";
 		displayName = "Trench bent (Chameleon)";
 		model = "x\Peer_Trenches\addons\vehicles\data\trenches\bent\trench_bent.p3d";
-		//hiddenSelections[] = {"top","snow"};
-		//hiddenSelectionsTextures[] = {"x\Peer_Trenches\addons\vehicles\data\trenches\straight\textures\Dirt_CO.paa","x\Peer_Trenches\addons\vehicles\data\trenches\straight\textures\snow_CO.paa"};
 		hiddenSelections[] = {"top"};
 	};
 };

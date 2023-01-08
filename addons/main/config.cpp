@@ -2,18 +2,27 @@
 #include "CfgFunctions.hpp"
 #include "Cfg3DEN.hpp"
 
-class CfgEditorSubcategories
+class CfgEditorCategories
 {
-	class Peer_Trenches_Snow_Chameleon
+	class Trench_Structures
 	{
-		displayName = "Trench Pieces Snow (Chameleon)";
-	};
-	class Peer_Trenches_Chameleon
-	{
-		displayName = "Trench Pieces (Chameleon)";
-	};
-		class Peer_Trenches
-	{
-		displayName = "Trench Pieces";
+		displayName = "Trench Structures"; // Name visible in the list
 	};
 };
+
+class CfgEditorSubcategories
+{
+	class Trenches_Snow_Chameleon
+	{
+		displayName = "Trenches (Snow ,Chameleon)";
+	};
+	class Trenches_Chameleon
+	{
+		displayName = "Trenches (Chameleon)";
+	};
+		class Trenches_Misc
+	{
+		displayName = "Misc / Utils";
+	};
+};
+

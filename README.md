@@ -8,15 +8,36 @@ Eine Mod, die zusammen mit Deformer das Bauen von Performance sparenden Grabensy
 - [ ] Large Trench Straight
     - [x] Shape Blocked out
     - [x] Modeled
-    - [ ] LODs working
-    - [ ] Snow Version (optional)
+    - [x] LODs working
+    - [x] Snow Version (optional)
+    - [ ] Dirt Texture on inside
+
+- [ ] Large Trench Straight Short
+    - [x] Shape Blocked out
+    - [x] Modeled
+    - [x] LODs working
+    - [x] Snow Version (optional)
+    - [ ] Dirt Texture on inside
+
+- [ ] Large Trench Bent
+    - [x] Shape Blocked out
+    - [x] Modeled
+    - [x] LODs working
+    - [x] Snow Version (optional)
+    - [ ] Dirt Texture on inside
+
+- [ ] Trench Floor
+    - [x] Shape Blocked out
+    - [x] Modeled
+    - [x] LODs working
+    - [ ] Dirt Texture
 
 
 ## Credit:
 Danke an Gruppe Adler für das Bereitstellen ihres Scripts zum Dynamischen Setzen der Textur.
 
 ## Danke an:
-Horrible Goat for your support on the Arma Discord
-[A] Salbei für deine Unterstützung beim Blender Export
-Joko und [W]Miller für eure Unterstützung beim Fehlerfinden im Macro Jungle
-@Caprisol für die Unterstützung mit den Eventhandlern
+- Horrible Goat für die Unterstützung im Arma Discord
+- [A] Salbei für deine Unterstützung beim Blender Export
+- Joko und [W]Miller für eure Unterstützung beim Fehlerfinden im Macro Jungle
+- [w] Caprisol für die Unterstützung mit den Eventhandlern
