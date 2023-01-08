@@ -38,6 +38,7 @@ Danke an Gruppe Adler für das Bereitstellen ihres Scripts zum Dynamischen Setze
 
 ## Danke an:
 - Horrible Goat für die Unterstützung im Arma Discord
-- [A] Salbei für deine Unterstützung beim Blender Export
-- Joko und [W]Miller für eure Unterstützung beim Fehlerfinden im Macro Jungle
-- [w] Caprisol für die Unterstützung mit den Eventhandlern
+- @AdlerSalbei / [A] Salbei für deine Unterstützung beim Blender Export
+- @jokoho48 / Joko  und @EinfachJul / [W]Miller für eure Unterstützung beim Fehlerfinden im Macro Jungle
+- @CapriSol / [w] Caprisol für die Unterstützung mit den Eventhandlern
+- Danke an [TacNet] Insect und [W] Pyro für euer Feedback und das Testen.
