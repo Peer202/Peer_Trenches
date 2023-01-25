@@ -3,8 +3,9 @@ class CfgFunctions {
 		class functions {
 			file = "x\Peer_Trenches\addons\main\functions";
 			class initTrench3DEN {};
-			class initTrenchMission {};
+			class initTrenchMission {postInit = 1;};
 			class trenchSetTexture {};
+			class dragged3DEN {};
 		};
 	};
 };

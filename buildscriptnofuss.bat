@@ -1,1 +1,1 @@
-hemtt build --release --force
+hemtt build --release

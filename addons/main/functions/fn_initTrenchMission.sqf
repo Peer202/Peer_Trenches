@@ -13,9 +13,16 @@
  *
  * Public: No
  */
+{	
+	if (_x isKindOf "Peer_Trench_mainclass") then {
 
-{
-	if (_x isKindOf "Peer_Trench_Straight_Tall_Metal") then {
-		[_x] call Peer_Trenches_main_fnc_trenchSetTexture;
+		private _texturepath = surfaceTexture (getPos _x);	
+		private _applymanualtexture = _x getVariable ["Apply_Manual_Texture_Path",false];
+
+		if(_applymanualtexture)
+		then{
+			_texturepath = _x getVariable ["Manual_Texture_Path",""];
+		};
+		[_x,_texturepath] call Peer_Trenches_main_fnc_trenchSetTexture;
 	};
-} forEach (allMissionObjects "Peer_Trench_Straight_Tall_Metal");
+} forEach (allMissionObjects "Peer_Trench_mainclass");

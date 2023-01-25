@@ -15,7 +15,15 @@
  */
 
 {
-	if (_x isKindOf "Peer_Trench_Straight_Tall_Metal") then {
-		[_x] call Peer_Trenches_main_fnc_trenchSetTexture;
+	if (_x isKindOf "Peer_Trench_mainclass") then {
+		private _object = _x;
+		private _texturepath = surfaceTexture (getPos _object);
+
+		if ((_object get3DENAttribute "Apply_Manual_Texture_Path") select 0) then {
+			_texturepath = (_object get3DENAttribute "Manual_Texture_Path") select 0;
+		};
+		
+		[_x,_texturepath] call Peer_Trenches_main_fnc_trenchSetTexture;
+		
 	};
 } forEach (all3DENEntities select 0);

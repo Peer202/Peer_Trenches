@@ -14,6 +14,10 @@
  * Public: No
  */
 
-params ["_object"];
+params ["_object","_texturepath"];
 
-_object setObjectTexture [0, surfaceTexture (getPos _object)];
+//diag_log format ["[DEBUG] Manual Trench Texture Apply = %1, path = %2",str _applymanualtexture,(_object getVariable ["Manual_Texture_Path",""])];
+
+//diag_log format ["[DEBUG] Trench Texture of %1, was set to %2",str _object,_texturepath];
+
+_object setObjectTexture [0, _texturepath];
