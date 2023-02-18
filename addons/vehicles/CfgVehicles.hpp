@@ -78,12 +78,12 @@ class CfgVehicles
 	};
 
 	class Peer_Trench_Straight_Long_Snow_Chameleon: Peer_Trench_Snow_Chameleon {
-		scope = 0;
-		scopeCurator = 0;
-		scopeArsenal = 0;
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
 		editorPreview = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\Straight.paa";
 		vehicleClass = "Peer_Trenches";
-		displayName = "Trench long Snow (Chameleon)";
+		displayName = "Trench large Snow (Chameleon)";
 		model = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\trench_straight.p3d";
 		hiddenSelections[] = {"top"};
 	};
@@ -91,8 +91,16 @@ class CfgVehicles
 	class Peer_Trench_Straight_Short_Snow_Chameleon: Peer_Trench_Straight_Long_Snow_Chameleon {
 		editorPreview = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\Straight.paa";
 		vehicleClass = "Peer_Trenches";
-		displayName = "Trench short snow (Chameleon)";
+		displayName = "Trench snow (Chameleon)";
 		model = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\trench_straight_slim.p3d";
+		hiddenSelections[] = {"top"};
+	};
+
+	class Peer_Trench_Straight_vsmall_Snow_Chameleon: Peer_Trench_Straight_Long_Snow_Chameleon {
+		editorPreview = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\Straight.paa";
+		vehicleClass = "Peer_Trenches";
+		displayName = "Trench small snow (Chameleon)";
+		model = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\trench_straight_vsmall.p3d";
 		hiddenSelections[] = {"top"};
 	};
 	class Peer_Trench_Bent_Snow_Chameleon: Peer_Trench_Straight_Long_Snow_Chameleon {

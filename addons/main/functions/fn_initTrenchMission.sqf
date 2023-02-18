@@ -13,6 +13,7 @@
  *
  * Public: No
  */
+if (!isServer) exitWith {diag_log "[DEBUG] Chameleon Trenches started on client but was terminated"};
 {	
 	if (_x isKindOf "Peer_Trench_mainclass") then {
 

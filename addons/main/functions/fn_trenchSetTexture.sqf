@@ -20,4 +20,4 @@ params ["_object","_texturepath"];
 
 //diag_log format ["[DEBUG] Trench Texture of %1, was set to %2",str _object,_texturepath];
 
-_object setObjectTexture [0, _texturepath];
+_object setObjectTextureGlobal [0, _texturepath];

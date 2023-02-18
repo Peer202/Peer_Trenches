@@ -1,4 +1,5 @@
 *.pbo
+*.bat
 *.biprivatekey
 *.zip
 releases/*
