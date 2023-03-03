@@ -15,6 +15,8 @@
  */
 
 params ["_object","_texturepath"];
+if (!isServer) exitWith {diag_log "[DEBUG] Chameleon Trenches tried to set a texture on Client"};
+
 
 //diag_log format ["[DEBUG] Manual Trench Texture Apply = %1, path = %2",str _applymanualtexture,(_object getVariable ["Manual_Texture_Path",""])];
 

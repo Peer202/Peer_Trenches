@@ -19,7 +19,7 @@ class CfgVehicles
 		class EventHandlers: Eventhandlers {
 			class Peer_Trenches {
 				Dragged3DEN = "_this call Peer_Trenches_Main_fnc_dragged3DEN";
-				init = "_this call Peer_Trenches_Main_fnc_dragged3DEN";
+				//init = "_this call Peer_Trenches_Main_fnc_dragged3DEN";
 				AttributesChanged3DEN = "_this call Peer_Trenches_Main_fnc_dragged3DEN";
 			};
 		};
@@ -71,16 +71,17 @@ class CfgVehicles
 		editorSubCategory = "Trenches_Snow_Chameleon";
 		class EventHandlers: Eventhandlers {
 			class Peer_Trenches {
-				Dragged3DEN = "_this call Peer_Trenches_Main_fnc_trenchSetTexture";
-				init = "_this call Peer_Trenches_Main_fnc_trenchSetTexture";
+				Dragged3DEN = "_this call Peer_Trenches_Main_fnc_dragged3DEN";
+				init = "_this call Peer_Trenches_Main_fnc_dragged3DEN";
+				AttributesChanged3DEN = "_this call Peer_Trenches_Main_fnc_dragged3DEN";
 			};
 		};
 	};
 
 	class Peer_Trench_Straight_Long_Snow_Chameleon: Peer_Trench_Snow_Chameleon {
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scope = 0;
+		scopeCurator = 0;
+		scopeArsenal = 0;
 		editorPreview = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\Straight.paa";
 		vehicleClass = "Peer_Trenches";
 		displayName = "Trench large Snow (Chameleon)";
