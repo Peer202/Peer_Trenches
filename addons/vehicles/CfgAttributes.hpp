@@ -1,5 +1,5 @@
 class Attributes
-		{
+		{			
 			// Attribute class, can be anything
 			class Apply_Manual_Texture_Path
 			{

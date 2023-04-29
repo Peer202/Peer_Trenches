@@ -15,7 +15,7 @@
  */
 
 params["_object"];
-diag_log "[DEBUG] Trenches Dragged 3DEN started";
+//diag_log "[DEBUG] Trenches Dragged 3DEN started";
 if (!isServer) exitWith {diag_log "[DEBUG] Chameleon Trenches started on client but was terminated"};
 private _texturepath = surfaceTexture (getPos _object);
 _object set3DENAttribute ["Ground_Texture_Path",_texturepath];

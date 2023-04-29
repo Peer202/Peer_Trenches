@@ -12,7 +12,12 @@ class CfgVehicles
 		editorSubCategory = "Trenches_Chameleon";
 	
 		#include "CfgAttributes.hpp"
+		class AttributeValues
+		{
+			enableSimulation = false;
 
+			isLocalOnly = true;
+		};
 	};
 	class Peer_Trench_Chameleon:Peer_Trench_mainclass{
 		editorSubCategory = "Trenches_Chameleon";
@@ -72,7 +77,7 @@ class CfgVehicles
 		class EventHandlers: Eventhandlers {
 			class Peer_Trenches {
 				Dragged3DEN = "_this call Peer_Trenches_Main_fnc_dragged3DEN";
-				init = "_this call Peer_Trenches_Main_fnc_dragged3DEN";
+				//init = "_this call Peer_Trenches_Main_fnc_dragged3DEN";
 				AttributesChanged3DEN = "_this call Peer_Trenches_Main_fnc_dragged3DEN";
 			};
 		};
