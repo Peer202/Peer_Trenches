@@ -16,7 +16,7 @@ class CfgVehicles
 		{
 			enableSimulation = false;
 
-			isLocalOnly = true;
+			isLocalOnly = false;
 		};
 	};
 	class Peer_Trench_Chameleon:Peer_Trench_mainclass{
