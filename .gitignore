@@ -6,3 +6,5 @@ releases/*
 keys/*
 testarma.bat
 .hemtt/local
+.hemttout
+*.exe
