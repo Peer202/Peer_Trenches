@@ -14,14 +14,14 @@ class CfgVehicles
 		#include "CfgAttributes.hpp"
 		class AttributeValues
 		{
-			enableSimulation = false;
+			enableSimulation = "false";
 
-			isLocalOnly = false;
+			isLocalOnly = "false";
 		};
 	};
 	class Peer_Trench_Chameleon:Peer_Trench_mainclass{
 		editorSubCategory = "Trenches_Chameleon";
-		class EventHandlers: Eventhandlers {
+		class EventHandlers: EventHandlers {
 			class Peer_Trenches {
 				Dragged3DEN = "_this call Peer_Trenches_Main_fnc_dragged3DEN";
 				//init = "_this call Peer_Trenches_Main_fnc_dragged3DEN";
@@ -74,7 +74,7 @@ class CfgVehicles
 	//Snow
 	class Peer_Trench_Snow_Chameleon:Peer_Trench_mainclass{
 		editorSubCategory = "Trenches_Snow_Chameleon";
-		class EventHandlers: Eventhandlers {
+		class EventHandlers: EventHandlers {
 			class Peer_Trenches {
 				Dragged3DEN = "_this call Peer_Trenches_Main_fnc_dragged3DEN";
 				//init = "_this call Peer_Trenches_Main_fnc_dragged3DEN";

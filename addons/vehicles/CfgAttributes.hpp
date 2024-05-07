@@ -9,7 +9,7 @@ class Attributes
 				property = "Apply_Manual_Texture_Path"; // Unique config property name saved in SQM
 				control = "Checkbox"; // UI control base class displayed in Edit Attributes window, points to Cfg3DEN >> Attributes				
 				expression = "_this setVariable ['%s',_value];";
-				defaultValue = false;
+				defaultValue = "false";
 
 				//--- Optional properties
 				unique = 0; // When 1, only one entity of the type can have the value in the mission (used for example for variable names or player control)
