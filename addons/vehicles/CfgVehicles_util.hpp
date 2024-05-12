@@ -1,7 +1,7 @@
 // Trench Floor
 	class Peer_Trench_Floor_Chameleon: Peer_Trench_Chameleon {
 		scope = 2;
-		scopeCurator = 2;
+		scopeCurator = 0;
 		scopeArsenal = 2;
 		editorSubCategory = "Trenches_Misc";
 		editorPreview = "x\Peer_Trenches\addons\vehicles\data\utils\preview\floor.paa";
@@ -13,7 +13,7 @@
 	// Trench Top
 	class Peer_Trench_Top_Chameleon: Peer_Trench_Chameleon {
 		scope = 2;
-		scopeCurator = 2;
+		scopeCurator = 0;
 		scopeArsenal = 2;
 		editorSubCategory = "Trenches_Misc";
 		editorPreview = "x\Peer_Trenches\addons\vehicles\data\utils\preview\floor.paa";
@@ -25,7 +25,7 @@
 	// Trench Top Bunker
 	class Peer_Trench_Top_Bunker_Chameleon: Peer_Trench_Chameleon {
 		scope = 2;
-		scopeCurator = 2;
+		scopeCurator = 0;
 		scopeArsenal = 2;
 		editorSubCategory = "Trenches_Misc";
 		editorPreview = "x\Peer_Trenches\addons\vehicles\data\utils\preview\floor.paa";
@@ -37,7 +37,7 @@
 	// Trench Top small
 	class Peer_Trench_Top_small_Chameleon: Peer_Trench_Chameleon {
 		scope = 2;
-		scopeCurator = 2;
+		scopeCurator = 0;
 		scopeArsenal = 2;
 		editorSubCategory = "Trenches_Misc";
 		editorPreview = "x\Peer_Trenches\addons\vehicles\data\utils\preview\floor.paa";

@@ -35,7 +35,7 @@ class CfgVehicles
 
 	class Peer_Trench_Straight_Long_Chameleon: Peer_Trench_Chameleon {
 		scope = 2;
-		scopeCurator = 2;
+		scopeCurator = 0;
 		scopeArsenal = 2;
 		editorPreview = "x\Peer_Trenches\addons\vehicles\data\trenches\straight\preview\long.paa";
 		vehicleClass = "Peer_Trenches";
