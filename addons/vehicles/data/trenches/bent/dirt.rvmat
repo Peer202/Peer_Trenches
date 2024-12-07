@@ -46,7 +46,7 @@ class Stage3
 };
 class Stage4
 {
-    texture="#(argb,8,8,3)color(1.0,1.0,1.0,1.0,AS)";
+    texture="x\Peer_Trenches\addons\vehicles\data\trenches\straight\textures\Dirt_AO.paa";
     uvSource="tex";
     class uvTransform
     {
