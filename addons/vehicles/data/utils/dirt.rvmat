@@ -9,7 +9,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-    texture="a3\structures_f_tank\decals\horizontal\data\dirtpatch_02_nohq.paa";
+    texture="x\Peer_Trenches\addons\vehicles\data\utils\textures\Dirt_NOHQ.paa";
     uvSource="tex";
     class uvTransform
     {
